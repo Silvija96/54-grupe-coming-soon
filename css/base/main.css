@@ -1,8 +1,27 @@
-* {
+@font-face {
+    font-family: Roboto;
+    src: url(../../fonts/Roboto/static/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../../fonts/Roboto/static/Roboto-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     
 }
 
-
+body {
+    font-size: Roboto, 'Gill Sans', sans-serif;
+}
 
 .bg-blue {
     background-color: #03a9f5;
