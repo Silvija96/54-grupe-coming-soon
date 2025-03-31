@@ -3,13 +3,20 @@
     gap: 1rem;
     width: 100%;
     color: #fff;
+<<<<<<< HEAD
   }
   .clock > .time {
+=======
+   
+}
+.clock > .time {
+>>>>>>> 555b54c71cc3d94ceaa000a86447892095894eca
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
     width: 100%;
     text-align: center;
+<<<<<<< HEAD
   }
   .clock > .time > .value {
     font-size: 4.5rem;
@@ -19,3 +26,15 @@
     font-size: 1rem;
     text-transform: uppercase;
   }
+=======
+}
+.clock > .time > .value {
+    font-size: 4.5rem;
+    font-weight: bold;
+
+}
+.clock > .time > .label {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+>>>>>>> 555b54c71cc3d94ceaa000a86447892095894eca
