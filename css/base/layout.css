@@ -49,17 +49,16 @@
     .container > .row
     .container > .row-short {
         width: 400px;
-        
         flex-direction: column;
     }
-    .container > .row
-    .container > .row-short {
-        width: 100%;
+
+    .container .left-column,
+    .container .right-column {
+      width: 100%;
     }
-    .container > .row {
-        row-gap: 60px;
-        flex-direction: column;
-    }
+
+
+   
 @media (max-width:  500px) {
         .container {
             padding-left: 20px;
