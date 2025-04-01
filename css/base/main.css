@@ -46,3 +46,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+footer {
+    color: #fff;
+}
+
+.trio {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.trio > p::after {
+    background-color: #fff;
+    content: '';
+    width: 2px;
+    height: 1em;
+    display: inline-block;
+    margin-left: 0.7rem;
+}
+.trio > p:last-child::after {
+    display: none;
+}
+@media (max-width: 700px) {
+    .trio {
+        flex-direction: column;
+        align-items: center;
+    }
+    .trio > p::after {
+        display: none;
+    }
+}
