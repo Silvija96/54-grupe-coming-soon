@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
+
     "dev": "dead-server --host=localhost --port=5402",
-=======
-    "dev": "dead-server --host-localhost --port=5405",
->>>>>>> 857d122723d6265499ca4a3927c9ab1a6537ad79
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
